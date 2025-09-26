@@ -1,0 +1,78 @@
+/* revert chat input position */
+.channelTextArea_f75fb0 {
+    margin-bottom: 25px;
+}
+
+/* revert chat input height */
+.align-chat-input {
+    --custom-channel-textarea-text-area-height: 52px;
+}
+.align-chat-input .attachWrapper__0923f {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* revert typing bubbles position */
+.align-chat-input .inTextChannel_b88801.base_b88801 {
+    bottom: 0px;
+    top: auto;
+}
+.align-chat-input .inTextChannel_b88801 .typingDots_b88801 {
+    margin-left: 5px;
+}
+.align-chat-input .inTextChannel_b88801 .text_b88801 {
+    margin-left: 0cqw
+}
+
+/* move chat back down to usual position */
+.scrollerSpacer__36d07 {
+    height: 28px !important;
+}
+
+/* revert color of typing username */
+.align-chat-input .inTextChannel_b88801 .text_b88801>strong {
+    color: var(--text-secondary);
+}
+
+/* change attachment button svg back */
+.attachButton__0923f path {
+    d: path("M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z");
+}
+
+/* remove weird gradient thing */
+.chatTypingGradientAtBottom__36d07 {
+    display: none;
+}
+.chatTypingGradientNotAtBottom__36d07 {
+    display: none;
+}
+
+/* attempt to fix typing issue */
+.inTextChannel_b88801.base_b88801 {
+  /* positioning */
+  position: absolute !important;
+  bottom: -5px !important;
+  top: auto;
+  left: 8px;
+  right: 8px;
+  z-index: 9999 !important;
+
+  /* box model */
+  margin: 0;
+  padding: 6px 8px;
+
+  /* behavior/visual tweaks */
+  pointer-events: auto;
+  transform: none;
+  transition: none;
+}
+
+/* fix announcement channel bars margins */
+.wrapper__44df5 {
+  margin-bottom: 10px;
+}
+
+/* fix typing indicator being too close to names */
+.inTextChannel_b88801 .text_b88801 {
+  margin-left: 10px;
+}
