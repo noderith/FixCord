@@ -6,6 +6,5 @@ Thanks! Quick rules:
 - Keep CSS human-readable and commented.
 - Open a PR with screenshots and a short description of what it changes.
 - PR checklist:
-  - [ ] Lint passed
   - [ ] No external imports
   - [ ] Screenshots provided
