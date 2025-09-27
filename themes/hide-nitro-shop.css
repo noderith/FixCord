@@ -1,0 +1,7 @@
+/* CREDIT: @acheronx0577 on Discord */
+
+/* Hide elements where data-list-item-id contains "nitro" or "shop" */
+a[data-list-item-id*="nitro"],
+a[data-list-item-id*="shop"] {
+    display: none !important;
+}
