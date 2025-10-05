@@ -1,0 +1,178 @@
+/*title bar */
+@import url('https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css');
+:root {
+    /* controls the vertical position of the window buttons */
+    --vr-header-snippet-top: 0px !important;
+    /* controls the space above the server list */
+    --vr-header-snippet-server-padding: 16px !important;
+    /* controls the space the window buttons get on the channel header, experiment around with this if you get gaps or the buttons overlap! */
+    --vr-header-snippet-space: 180px !important;
+}
+
+
+/* profile overlap */
+.visual-refresh section.panels_c48ade {
+  margin-left: 65px;
+  margin-right: 0%;
+  width: calc(103% - var(--space-xs)*2 - var(--custom-guild-list-width)) !important;
+  .actionButtons_e131a9 button {
+    padding: 100;
+  }
+}
+nav.guilds_c48ade {
+  margin-bottom: 0 !important;
+}
+
+/* optionally hide the bar at bottom of server list */
+.sidebar_c48ade:after {
+  display: none;
+}
+
+
+/* Remove Profile Reactions */
+[class*='statusPopover'], [class*='avatarPopover__'], [class*='activityPopover__'] {display:none;}
+
+/* reduce context menu padding */
+.scroller_c1e9c4{
+    margin: -4px;
+    &::after,.separator_c1e9c4 {
+        margin: 1px 8px !important;
+    }
+    &::after,.wrapper_f563df {
+        padding: 2px !important;
+    }
+}
+
+/* swap clan tag and role icon */
+[class^="headerText"] {
+  display: inline-flex;
+}
+
+[class^="headerText"] > span:has([class^="roleIcon"]) {
+  order: 2;
+}
+
+[class^="headerText"] > span:has([class^="chipletContainerInner"])  {
+  order: 3;
+}
+
+[class^="headerText"] > span:is([class^="username"]) {
+  order: 1;
+}
+
+[class^="headerText"] > span[style="display: none;"] {
+  order: 4;
+}
+
+[class^="headerText"] > .vc-message-decorations-wrapper {
+  order: 5;
+}
+
+[class^="headerText"] > span:has(> [class^="newMemberBadge"]) {
+  order: 6;
+}
+
+[class^="headerText"] > span:is([class^="botTag"]) {
+  order: 7;
+}
+
+/* revert chat input position */
+.channelTextArea_f75fb0 {
+    margin-bottom: 25px;
+    margin-top: 8px;
+}
+
+/* revert chat input height */
+.align-chat-input {
+    --custom-channel-textarea-text-area-height: 52px;
+}
+.align-chat-input .attachWrapper__0923f {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* revert typing bubbles position */
+.align-chat-input .inTextChannel_b88801.base_b88801 {
+    bottom: 0px;
+    top: auto;
+}
+.align-chat-input .inTextChannel_b88801 .typingDots_b88801 {
+    margin-left: 0;
+}
+.align-chat-input .inTextChannel_b88801 .text_b88801 {
+    margin-left: 4px;
+}
+
+/* move chat back down to usual position */
+.scrollerSpacer__36d07 {
+    height: 28px !important;
+}
+
+/* revert color of typing username */
+.align-chat-input .inTextChannel_b88801 .text_b88801>strong {
+    color: var(--text-secondary);
+}
+
+/* change attachment button svg back */
+.attachButton__0923f path {
+    d: path("M12 23a11 11 0 1 0 0-22 11 11 0 0 0 0 22Zm0-17a1 1 0 0 1 1 1v4h4a1 1 0 1 1 0 2h-4v4a1 1 0 1 1-2 0v-4H7a1 1 0 1 1 0-2h4V7a1 1 0 0 1 1-1Z");
+}
+
+/* attempt to fix typing issue */
+.inTextChannel_b88801.base_b88801 {
+  /* positioning */
+  position: absolute !important;
+  bottom: -5px !important;
+  top: auto;
+  left: 8px;
+  right: 8px;
+  z-index: 9999 !important;
+
+  /* box model */
+  margin: 0;
+  padding: 6px 8px;
+
+  /* behavior/visual tweaks */
+  pointer-events: auto;
+  transform: none;
+  transition: none;
+}
+
+.wrapper__44df5 {
+  margin-bottom: 10px;
+}
+
+.inTextChannel_b88801 .text_b88801 {
+  margin-left: 10px;
+}
+
+.typingGradientNotAtBottom__36d07 {
+  mask: none !important;
+}
+
+/* Bigger Buttons */
+.visual-refresh .button__74017,.buttonContents_e6e74f:not([class*="enabled__67645"]) {
+    transform: scale(1.25) !important;
+}
+.visual-refresh .spriteContainer__04eed {
+   transform: scale(1.1) !important;
+}
+.attachButtonPlus__0923f {
+  transform: scale(1.25) !important;
+}
+.folderIconWrapper__48112 {
+  transform: scale(1.50) !important;
+}
+
+/* fix slowmode text size */
+.cooldownText_b21699 {
+  font-size: 15px;
+  display: flex;
+  margin-right: -15px;
+}
+
+/* Remove Gift Button */
+.buttons__74017 > [aria-label="Send a gift"] 
+{ 
+  display: none; 
+}
