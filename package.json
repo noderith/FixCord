@@ -1,0 +1,23 @@
+{
+  "name": "fix-up-discord",
+  "version": "1.0.0",
+  "description": "This repository contains visual-only CSS fixes and themes for Discord clients and web. Themes are intended for personal use and visuals only.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noderith/FixCord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noderith/FixCord/issues"
+  },
+  "homepage": "https://github.com/noderith/FixCord#readme"
+}
