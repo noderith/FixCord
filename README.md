@@ -1,7 +1,22 @@
-# Discord CSS Fixes & Themes
+# Welcome to the FixCord Repository!
 
-This repository contains visual-only CSS fixes and themes for Discord clients and web. Themes are intended for personal use and visuals only.
+A cute, upcoming Discord client modification aimed at allowing users to enhance, customise and fix their Discord client. With the intention of working alongside other client mods seamlessly.
 
-**Safety note:** These are CSS files only — no tokens, no servers, no scraping. Do not add external imports from untrusted domains.
+[![Star History Chart](https://api.star-history.com/svg?repos=noderith/FixCord&type=date&legend=top-left)](https://www.star-history.com/#noderith/FixCord&type=date&legend=top-left)
 
-See `CONTRIBUTING.md` for how to submit themes.
+## Disclaimer
+
+Discord is trademark of Discord Inc. and solely mentioned for the sake of descriptivity. Mention of it does not imply any affiliation with or endorsement by Discord Inc.
+
+<details>
+<summary>Discord's Terms of Service Warning</summary>
+
+Client modifications are against Discord’s Terms of Service.
+
+However, Discord is pretty indifferent about them and there are no known cases of users getting banned for using client mods! So you should generally be fine as long as you don’t use any plugins that implement abusive behaviour. But no worries, all inbuilt plugins are safe to use!
+
+Regardless, if your account is very important to you and it getting disabled would be a disaster for you, you should probably not use any client mods, just to be safe
+
+Additionally, make sure not to post screenshots with any client mods in a server where you might get banned for it
+
+</details>
