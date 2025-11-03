@@ -4,11 +4,11 @@ A cute, upcoming Discord client modification aimed at allowing users to enhance,
 
 ## Star History
 
-<a href="https://www.star-history.com/#noderith/FixCord&type=date&legend=top-left">
+<a href="https://www.star-history.com/#FixCord-Team/FixCord&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=noderith/FixCord&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=noderith/FixCord&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=noderith/FixCord&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=FixCord-Team/FixCord&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=FixCord-Team/FixCord&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=FixCord-Team/FixCord&type=date&legend=top-left" />
  </picture>
 </a>
 
